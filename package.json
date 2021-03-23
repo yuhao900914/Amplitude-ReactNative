@@ -1,6 +1,6 @@
 {
-  "name": "@amplitude/react-native",
-  "version": "2.0.11",
+  "name": "@hao.yu/amplitude-react-native",
+  "version": "2.4.4",
   "description": "Official React Native SDK",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -43,13 +43,16 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/amplitude/Amplitude-ReactNative",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuhao900914/Amplitude-ReactNative.git"
+  },
   "author": "Amplitude Inc. <sdk.dev@amplitude.com> (https://github.com/amplitude)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amplitude/Amplitude-ReactNative/issues"
+    "url": "https://github.com/yuhao900914/Amplitude-ReactNative/issues"
   },
-  "homepage": "https://github.com/amplitude/Amplitude-ReactNative#readme",
+  "homepage": "https://github.com/yuhao900914/Amplitude-ReactNative#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -137,5 +140,10 @@
   "dependencies": {
     "gh-pages": "^3.1.0",
     "typedoc-neo-theme": "^1.1.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib"
   }
 }
