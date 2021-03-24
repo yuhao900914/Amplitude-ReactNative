@@ -1,10 +1,10 @@
+#test
+**/__tests__
+**/__fixtures__
+**/__mocks__
 #Xcode
 ios/build/
 #Android
 android/build/
 #demo
 example
-#test
-**/*/__tests__
-**/*/__fixtures__
-**/*/__mocks__
