@@ -5,6 +5,6 @@ android/build/
 #demo
 example
 #test
-/__tests__
-/__fixtures__
-/__mocks__
+**/*/__tests__
+**/*/__fixtures__
+**/*/__mocks__
