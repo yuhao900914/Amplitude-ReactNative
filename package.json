@@ -11,12 +11,8 @@
     "android",
     "ios",
     "lib",
-    "node_modules",
     "src",
-    "LICENSE",
-    "README.md",
-    "amplitude-react-native.podspec",
-    "package.json"
+    "amplitude-react-native.podspec"
   ],
   "scripts": {
     "test": "jest",
