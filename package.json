@@ -1,5 +1,5 @@
 {
-  "name": "@hao.yu/amplitude-react-native",
+  "name": "@hao.yu/test-amplitude-react-native",
   "version": "2.4.0",
   "description": "Official React Native SDK",
   "main": "lib/commonjs/index",
@@ -50,6 +50,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@google/semantic-release-replace-plugin": "^1.0.2",
     "@react-native-community/eslint-config": "^2.0.0",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "^9.0.0",
