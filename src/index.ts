@@ -1,5 +1,4 @@
 import { NativeModules } from 'react-native';
-
 import { Constants } from './constants';
 import { Identify } from './identify';
 import { AmplitudeReactNativeModule } from './types';
