@@ -47,7 +47,12 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        assets: ['docs', 'package.json', 'src/constants.ts'],
+        assets: [
+          'docs',
+          'package.json',
+          'src/constants.ts',
+          'example/ios/Podfile.lock',
+        ],
         message:
           'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },

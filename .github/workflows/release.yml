@@ -51,6 +51,9 @@ jobs:
       - name: Build
         run: yarn prepare
 
+      - name: Prepare for example app
+        run: yarn pods
+
       - name: Release --dry-run  # Uses release.config.js
         if: ${{ github.event.inputs.dryRun == 'true'}}
         env:
