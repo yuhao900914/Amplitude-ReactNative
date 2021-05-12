@@ -1,6 +1,6 @@
 {
   "name": "@hao.yu/test-amplitude-react-native",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "Official React Native SDK",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
