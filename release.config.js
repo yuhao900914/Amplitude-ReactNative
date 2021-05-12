@@ -47,7 +47,12 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        assets: ['docs', 'package.json', 'src/constants.ts'],
+        assets: [
+          'docs',
+          'package.json',
+          'src/constants.ts',
+          'example/ios/Podfile.lock',
+        ],
         message:
           'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
       },
@@ -55,9 +60,7 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
-        publishCmd: 'yarn pods',
-        successCmd:
-          "git commit -am 'chore(release): ${nextRelease.version} [skip ci]' && git push",
+        successCmd: 'yarn pods',
       },
     ],
   ],
