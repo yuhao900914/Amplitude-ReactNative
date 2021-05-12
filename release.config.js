@@ -57,7 +57,7 @@ module.exports = {
       {
         publishCmd: 'yarn',
         successCmd:
-          "git commit -am 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}' && git push",
+          "git commit -am 'chore(release): ${nextRelease.version} [skip ci]' && git push",
       },
     ],
   ],
