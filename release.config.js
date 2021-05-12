@@ -55,8 +55,9 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
+        publishCmd: 'yarn pods',
         successCmd:
-          "yarn pods && git commit -am 'chore(release): ${nextRelease.version} [skip ci]' && git push",
+          "git commit -am 'chore(release): ${nextRelease.version} [skip ci]' && git push",
       },
     ],
   ],
