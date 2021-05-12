@@ -60,7 +60,7 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
-        successCmd: 'yarn pods',
+        publishCmd: 'yarn pods',
       },
     ],
   ],
