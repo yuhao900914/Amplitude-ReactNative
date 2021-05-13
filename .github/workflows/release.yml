@@ -51,6 +51,9 @@ jobs:
       - name: Build
         run: yarn prepare
 
+      - name: Install Cocoapods
+        run: gem install cocoapods
+
       - name: Release --dry-run  # Uses release.config.js
         if: ${{ github.event.inputs.dryRun == 'true'}}
         env:
