@@ -47,7 +47,7 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
-        prepareCmd: 'yarn pods',
+        prepareCmd: 'cd example/ios && pod install',
       },
     ],
     [
