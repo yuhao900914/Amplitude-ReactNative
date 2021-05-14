@@ -47,7 +47,7 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
-        prepareCmd: 'yarn run example-pod-install',
+        prepareCmd: 'yarn update-example-pod-lockfile',
       },
     ],
     [
