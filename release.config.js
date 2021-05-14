@@ -47,7 +47,8 @@ module.exports = {
     [
       '@semantic-release/exec',
       {
-        prepareCmd: 'yarn',
+        prepareCmd:
+          'cd example &&  yarn install --frozen-lockfile && cd ios && pod install',
       },
     ],
     [
