@@ -48,6 +48,7 @@ export class Amplitude {
     eventProperties?: Record<string, unknown>,
   ): Promise<boolean> {
     if (eventProperties && Object.keys(eventProperties).length > 0) {
+      console.log('in reactnative logEvent');
       return AmplitudeReactNative.logEventWithProperties(
         this.instanceName,
         eventType,
@@ -60,7 +61,7 @@ export class Amplitude {
   /**
    * Enable COPPA (Children's Online Privacy Protection Act) restrictions on
    * IDFA, IDFV, city, IP address and location tracking.
-   *
+   * test test test
    * This can be used by any customer that does not want to collect IDFA, IDFV,
    * city, IP address and location tracking.
    */
